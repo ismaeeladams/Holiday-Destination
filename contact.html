@@ -17,9 +17,24 @@
       Box 564, Highview<br />
       OL
     </address>
-    <form>
-      <input type="text" placeholder="Name" />
-      <input type="text" placeholder="Email" />
+
+    <form action="https://formspree.io/f/{form_id}" method="post">
+      <label for="name">Your Name</label>
+      <input name="Name" id="name" type="name" />
+      <br />
+      <label for="email">Your Email</label>
+      <input name="Email" id="email" type="email" />
+      <br />
+      <label for="contact">Contact</label>
+      <input name="Contact" id="contact" type="contact" />
+      <br />
+      <label for="date">Date</label>
+      <input name="date" id="date" type="date" />
+      <br />
+      <label for="time">Time</label>
+      <input name="Time" id="time" type="time" />
+      <br />
+      <button type="submit">Submit</button>
     </form>
     <a href="./index.html">Home Page</a>
   </body>
